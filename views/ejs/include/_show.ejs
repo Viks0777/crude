@@ -1,0 +1,19 @@
+<% for(let i =0; i < users.length, i++) {%>
+
+<tr>
+    <td><%= i+1 %></td>
+    <td><%= users[i].Danil%></td>
+    <td><%= users[i].Danila@gmail.com></td>
+    <td><%= users[i].Мужчина></td>
+    <td><%= users[i].Активный></td>
+
+    <td>
+        <a href="/update-user" class="btn border-shadow update">
+            <span class="text-gardient"><i class="fa-solid fa-user-secret"></i></span>
+        </a>
+        <a href="#" class="btn border-shadow update">
+            <span class="text-gardient"><i class="fa-solid fa-xmark"></i></span>
+        </a>
+    </td>
+</tr>
+<% } %>
